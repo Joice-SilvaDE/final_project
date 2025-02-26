@@ -1,36 +1,32 @@
-# Option 1: Public Company Financial Statement Analysis
+# Option 1: Comparative Financial Statement Analysis
 
 ## Overview:
-Analyze a company's balance sheet, income statement, and cash flow statement to assess profitability, financial health, and trends over time.
+Perform a comparative financial statement analysis between the Top 10 E-Commerce Companies and Top 10 Retail Companies by Earnings to identify strengths, weaknesses, and trends.
+
 
 ## Possible Datasets:
-- Yahoo Finance Financials: Pull financials from Yahoo Finance using yfinance Python API
-- S+M Listed Companies
+- Yahoo Finance API: Pull financials from Yahoo Finance using **yfinance Python API**
+- Adding attributes from companiesmarketcap.com
 
 ## Key Metrics to Analyze:
-- Revenue Growth Rate
-- Profit Margins (Gross, Operating, Net)
-- Earnings Per Share (EPS)
-- Debt-to-Equity Ratio
-- Cash Flow Trends
+- Profitability Metrics
+- Liquidity & Solvency Metrics
+- Cash Flow Metrics
+- Valuation Metrics
 
-## Potential Analysis:
-- Year-over-Year (YoY) Growth:
-  - Revenue, profits, and expenses
-  - Profitability Metrics: EBITDA, margins, and return on assets (ROA)
-  - Financial Health: Liquidity ratios, leverage analysis
-  - Comparative Analysis:
-    - Benchmark against competitors
+## Perform Financial Analysis & Data Cleaning:
+- Use SQL or Pandas to clean and format financial data
+- Normalize currency differences (USD, CNY, EUR)
+- Adjust for accounting periods (some companies report quarterly, others annually)
 
 ## Dashboard Insights:
-- Company Performance Over Time
-  - Line chart of revenue & profit trends
-- Financial Health Indicators
-  - Debt ratio
-  - Liquidity
-- Stock Price vs Financials
-  - Correlation analysis
-  
+- Comparison of Revenue Growth (E-Commerce vs. Retail)
+- Profitability Metrics - Gross Profit, Net Profit, EBITDA
+- Liquidity & Debt Analysis - Current Ratio & Debt-to-Equity
+- Cash Flow Comparison - Operating & Free Cash Flow Trends
+- Valuation Analysis - P/E Ratio & EPS Trends
+
+
 # Option 2:  Financial Risk & Bankruptcy Prediction
 
 ## Overview:
