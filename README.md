@@ -1,10 +1,10 @@
-# Option 1: Comparative Financial Statement Analysis
+# Comparative Financial Statement Analysis
 
 ## Overview:
-Perform a comparative financial statement analysis between the Top 10 E-Commerce Companies and Top 10 Retail Companies by Earnings to identify strengths, weaknesses, and trends.
+Perform a comparative financial statement analysis between the **Top 10 E-Commerce Companies** and **Top 10 Retail Companies** by Earnings to identify strengths, weaknesses, and trends.
 
 
-## Possible Datasets:
+## Sources:
 - Yahoo Finance API: Pull financials from Yahoo Finance using **yfinance Python API**
 - Adding attributes from companiesmarketcap.com
 
